@@ -67,5 +67,12 @@ public class Homework3 {
             System.out.printf("%d x %d = %d\n",n,i,n*i);
         }
 
+        System.out.println("\nTask 8 - Print the element in the array that does not have a pair");
+        int[] array7 = new int[] {5,6,5,6,7};
+        int result = 0;
+        for(int i = 0; i< array7.length; i++ ) {
+            result ^=array7[i];
+        }
+        System.out.println(result);
     }
 }
